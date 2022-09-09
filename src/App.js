@@ -6,14 +6,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src="skeeter_hedgie.png" className="App-logo" alt="logo" />
-        <p>
+        <span className="header-words">
           Corgi Facts
-        </p>
+        </span>
       </header>
-      {/* <h3 className="corgi-facts">they are short</h3>
-      <h3 className="corgi-facts">they are stubby</h3>
-      <h3 className="corgi-facts">they have big ears</h3>
-      <h3 className="corgi-facts">they are good at sniffin</h3> */}
     </div>
   );
 }

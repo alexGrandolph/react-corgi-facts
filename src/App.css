@@ -11,7 +11,7 @@ body {
 } */
 
 .App-logo {
-  height: 25vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -32,16 +32,29 @@ body {
 .App-header {
   /* background-color: #282c34; */
   background-color: rgb(99, 95, 95);
+  background-color: rgb(62, 58, 58);
   min-height: 10vh;
+  max-height: 20vh;
   display: flex;
-
   font-size: calc(10px + 2vmin);
   color: white;
-  
 }
 
+.header-words {
+  padding-top: 55px;
+  font-size: 3em;
+}
 
 .corgi-facts {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 
+}
+
+.list-container {
+  padding-left: 50px;
+  color: white;
+}
+
+li {
+  color: white;
 }
