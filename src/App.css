@@ -39,11 +39,14 @@ body {
   /* font-size: calc(10px + 2vmin); */
   color: white;
   align-items: center;
+  box-shadow: 10px 8px 12px rgb(38, 37, 37);
+  border-radius: 8px;
 }
 
 .header-words {
   /* padding-top: 55px; */
   font-size: 3em;
+  font-weight: bold;
 }
 
 .corgi-facts {
