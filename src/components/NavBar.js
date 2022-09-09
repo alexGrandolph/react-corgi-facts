@@ -3,7 +3,7 @@
 function NavBar() {
   return (
     <nav className="navbar">
-      <ul>
+      <ul className="nav-items">
         <li>About</li>
         <li>Pictures</li>
         <li>Contact</li>
