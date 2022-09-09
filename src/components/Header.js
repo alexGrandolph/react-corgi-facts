@@ -1,3 +1,6 @@
+import NavBar from './NavBar.js'
+
+
 function Header() {
   return (
     <div>
@@ -6,6 +9,7 @@ function Header() {
         <span className="header-words">
           Corgi Facts
         </span>
+        <NavBar />
       </header>
     </div>
   );
